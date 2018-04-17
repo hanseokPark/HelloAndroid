@@ -9,7 +9,7 @@ public class SubActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
+        setTitle(R.string.SubActivity);
         TextView tv = new TextView(SubActivity.this);
         tv.setText(R.string.SubActivity);
 
